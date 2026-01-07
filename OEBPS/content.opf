@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<package version="3.0" xmlns="http://www.idpf.org/2007/opf" unique-identifier="book-id">
+    
+    <!-- Metadata -->
+    <metadata xmlns:dc="http://purl.org/dc/elements/1.1/">
+        <!-- Title -->
+        <dc:title>Forever Elsewhere</dc:title>
+        <!-- Author -->
+        <dc:creator>Zachary Kai</dc:creator>
+        <!-- Book Identifier -->
+        <dc:identifier id="book-id">lunaseeker-site-1</dc:identifier>
+        <!-- Language -->
+        <dc:language>en-US</dc:language>
+        <!-- Date Published -->
+        <dc:date>2026-01-07</dc:date>
+        <!-- Date Modified -->
+        <meta property="dcterms:modified">2026-01-07T00:00:00Z</meta>
+        <!-- Short Description -->
+        <dc:description>The collected works and writings of Zachary Kai</dc:description>
+        <!-- Cover Image -->
+        <meta name="cover" content="cover-image"/>
+    </metadata>
+    
+    <!-- Manifest: All Files In Book -->
+    <manifest>
+
+        <!-- Essentials -->
+        <item id="ncx" href="toc.ncx" media-type="application/x-dtbncx+xml"/>
+        <item id="stylesheet" href="styles/stylesheet.css" media-type="text/css"/>
+        <item id="cover-image" href="images/cover.jpg" media-type="image/jpeg" properties="cover-image"/>
+        
+        <!-- HTML Files -->
+        <item id="cover" href="text/cover.html" media-type="application/xhtml+xml"/>
+        <item id="title" href="text/title.html" media-type="application/xhtml+xml"/>
+        <item id="toc" href="text/toc.html" media-type="application/xhtml+xml" properties="nav"/>
+        <item id="content-01" href="text/content-chapter-01.html" media-type="application/xhtml+xml"/>
+        
+    </manifest>
+    
+    <!-- Spine: Reading Order -->
+    <spine toc="ncx">
+        <itemref idref="cover"/>
+        <itemref idref="title"/>
+        <itemref idref="toc"/>
+        <itemref idref="content-01"/>
+    </spine>
+    
+    <!-- Guide: Navigation -->
+    <guide>
+        <reference type="cover" title="Cover" href="text/cover.html"/>
+        <reference type="toc" title="Table Of Contents" href="text/toc.html"/>
+        <reference type="text" title="Start" href="text/content-chapter-01.html"/>
+    </guide>
+    
+</package>

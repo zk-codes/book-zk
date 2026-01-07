@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!-- Backwards Compatibility: Table Of Contents For Older eReaders -->
+<ncx xmlns="http://www.daisy.org/z3986/2005/ncx/" version="2005-1">
+    
+    <!-- Metadata -->
+    <head>
+        <meta name="dtb:uid" content="zacharykai-net-epub-001"/>
+        <meta name="dtb:depth" content="1"/>
+        <meta name="dtb:totalPageCount" content="0"/>
+        <meta name="dtb:maxPageNumber" content="0"/>
+    </head>
+    
+    <!-- Title -->
+    <docTitle>
+        <text>Forever Elsewhere</text>
+    </docTitle>
+    
+    <!-- Navigation -->
+    <navMap>
+
+        <!-- Cover -->
+        <navPoint id="cover" playOrder="1">
+            <navLabel>
+                <text>Cover</text>
+            </navLabel>
+            <content src="text/cover.html"/>
+        </navPoint>
+        
+        <!-- Title Page -->
+        <navPoint id="title" playOrder="2">
+            <navLabel>
+                <text>Title Page</text>
+            </navLabel>
+            <content src="text/title.html"/>
+        </navPoint>
+        
+        <!-- Table Of Contents -->
+        <navPoint id="toc" playOrder="3">
+            <navLabel>
+                <text>Contents</text>
+            </navLabel>
+            <content src="text/toc.html"/>
+        </navPoint>
+
+    </navMap>
+</ncx>

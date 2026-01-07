@@ -1,0 +1,38 @@
+/* --- Base Styles */
+
+* {
+    margin: 0; 
+    padding: 0; 
+    box-sizing: border-box;}
+
+/* --- Typography */
+
+body {
+    font-family: Georgia, serif; 
+    line-height: 1.6; 
+    padding: 1em; 
+    max-width: 40em; 
+    margin: 0 auto;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    margin: 1.5em 0 0.5em; 
+    line-height: 1.2;
+}
+
+p {
+    margin: 0 0 1em;
+}
+
+a {
+    color: #0066cc; 
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+section {
+    margin: 2em 0;
+}
